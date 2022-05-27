@@ -11,9 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Leaderboard />}>
-        </Route>
-        <Route path="/change-player" element={<ChangePlayer />}>
+        <Route path="/" element={<ChangePlayer />}>
         </Route>
       </Routes>
     </BrowserRouter>
